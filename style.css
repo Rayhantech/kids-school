@@ -57,25 +57,25 @@
 
 
 
-  #list-iteam1 {
+  #list-item1 {
     font-weight: bold;
     font-size: 1.25rem;
     color: orange;
   }
 
-  #list-iteam2 {
+  #list-item2 {
     font-weight:500;
     font-size: 1.25rem;
     color:#01ACFD;
   }
   
-  #list-iteam3 {
+  #list-item3 {
     font-weight:500;
     font-size: 1.25rem;
     color: #05D4DF;
   }
 
-  #list-iteam4 {
+  #list-item4 {
     font-weight:500;
     font-size: 1.25rem;
     color: #5D58EF;
@@ -185,13 +185,13 @@
     background-image: linear-gradient(#F2E8FF, #FFFFFF);
   }
 
- .curriculam-card-title{
+ .curriculum-card-title{
   font-weight: bold;
   font-size: 1.5rem;
   color: #202020;
  }
 
- .curriculam-card-description{
+ .curriculum-card-description{
   font-size: 1rem;
   color: #808080;
  }
