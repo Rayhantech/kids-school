@@ -377,11 +377,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 510px;
     padding: 12px 16px;
   }
   #hr-line{
     background-color: orange;
-    width: auto;
+    width: 565px;
 
   }
 
