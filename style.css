@@ -229,8 +229,9 @@
   /* our stories section  */
 
   .our-stories{
-    margin: 0 141px;
+    /* margin: 0 141px; */
     background-image: url(assets/bg.png);
+    background-repeat: no-repeat;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 214, 141, 0.3));
   }
 
@@ -259,6 +260,7 @@
     box-shadow:0 6px 50px 0 rgba(0, 0, 0, 0.06);
     border-radius: 16px;
     width:540px;
+    margin-left: 400px;
     
   }
 
@@ -375,46 +377,71 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 12px 16px;
   }
   #hr-line{
     background-color: orange;
+    width: auto;
 
   }
 
   .banner{
     grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto auto;
     text-align: center;
-    flex-direction: column-reverse;
     margin-left: 16px;
     margin-right: 16px;
   }
 
+  .image1 {
+    grid-row: 2;
+  }
+
+  .image2 {
+    grid-row: 1;
+  }
+
+  .banner-title{
+    font-size: 2rem;
+  }
+
+  .banner-description{
+    font-size: 1rem;
+  }
+
+
   .curriculum{
     grid-template-columns: repeat(1, 1fr);
-    width: 544px;
-    margin-left: 16px;
-    margin-right: 16px;
+    width: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .standard-curriculum{
     margin: 0 16px;
+  }
+  .curriculum-title{
+    font-size: 1.65rem;
   }
 
   .arrow-circle, .our-stories-card{
     display: none;
   }
   .our-stories{
-    margin: 0 0;
+    margin: 0 auto;
   }
+
   .our-stories-container{
     grid-template-columns: repeat(2,2fr);
     margin-left: 16px;
     margin-right: 16px;
-    width: 550px;
   }
-
+  .our-stories-img{
+    width:100%;
+  }
   .our-stories-card-content2{
-    width:90%;
+    width: 230px;
+    margin-left: 16px;
   }
 
   .stories-bottom-section{
@@ -422,7 +449,8 @@
   }
 
   .footer-section{
+    padding-left: 21px;
     flex-direction: column;
-    width: 576px;
-  }
+    width: 550px; 
+}
 }
