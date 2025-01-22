@@ -320,7 +320,7 @@
 }
 
 #stories-button{
-  padding:10px 18px;
+    padding:10px 18px;
     border: none;
     border-radius: 47.93px;
     background-color: #5D58F0;
@@ -350,6 +350,8 @@
 
 .marquee-section{
   background-color: #FEA301;
+  font-size: 1.5rem;
+  color: white;
 }
 
 
@@ -382,7 +384,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 512px;
+    width: 544px;
     padding: 12px 16px;
     border: 1px solid #FEA301;
   }
@@ -416,7 +418,6 @@
 
   .curriculum{
     grid-template-columns: repeat(1, 1fr);
-    width: 500px;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -457,6 +458,8 @@
 
   .marquee-section{
     width: 576px;
+    color: white;
+    font-size: 1.5rem;
     background-color: #FEA301;
   }
 
