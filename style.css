@@ -468,4 +468,17 @@
     flex-direction: column;
     width: 555px; 
 }
+
+.footer-education-section{
+  margin-bottom:32px;
+}
+
+.footer-about-section{
+  margin-bottom: 32px;
+}
+
+#footer-headline{
+  margin-bottom: 37px;
+}
+
 }
